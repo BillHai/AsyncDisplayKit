@@ -199,6 +199,7 @@
 		6907C2581DC4ECFE00374C66 /* ASObjectDescriptionHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6907C2561DC4ECFE00374C66 /* ASObjectDescriptionHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6907C2591DC4ECFE00374C66 /* ASObjectDescriptionHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6907C2571DC4ECFE00374C66 /* ASObjectDescriptionHelpers.m */; };
 		6907C25A1DC4ECFE00374C66 /* ASObjectDescriptionHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6907C2571DC4ECFE00374C66 /* ASObjectDescriptionHelpers.m */; };
+		69527B121DC84292004785FB /* ASLayoutElementStylePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 69527B111DC84292004785FB /* ASLayoutElementStylePrivate.h */; };
 		6959433E1D70815300B0EE1F /* ASDisplayNodeLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6959433C1D70815300B0EE1F /* ASDisplayNodeLayout.mm */; };
 		6959433F1D70815300B0EE1F /* ASDisplayNodeLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6959433C1D70815300B0EE1F /* ASDisplayNodeLayout.mm */; };
 		695943401D70815300B0EE1F /* ASDisplayNodeLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 6959433D1D70815300B0EE1F /* ASDisplayNodeLayout.h */; };
@@ -982,6 +983,7 @@
 		68FC85E81CE29C7D00EDD713 /* ASVisibilityProtocols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASVisibilityProtocols.m; sourceTree = "<group>"; };
 		6907C2561DC4ECFE00374C66 /* ASObjectDescriptionHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASObjectDescriptionHelpers.h; sourceTree = "<group>"; };
 		6907C2571DC4ECFE00374C66 /* ASObjectDescriptionHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASObjectDescriptionHelpers.m; sourceTree = "<group>"; };
+		69527B111DC84292004785FB /* ASLayoutElementStylePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASLayoutElementStylePrivate.h; path = AsyncDisplayKit/Layout/ASLayoutElementStylePrivate.h; sourceTree = SOURCE_ROOT; };
 		6959433C1D70815300B0EE1F /* ASDisplayNodeLayout.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ASDisplayNodeLayout.mm; sourceTree = "<group>"; };
 		6959433D1D70815300B0EE1F /* ASDisplayNodeLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDisplayNodeLayout.h; sourceTree = "<group>"; };
 		695BE2541DC1245C008E6EA5 /* ASWrapperSpecSnapshotTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ASWrapperSpecSnapshotTests.mm; sourceTree = "<group>"; };
@@ -1542,8 +1544,6 @@
 		058D0A01195D050800B7D73C /* Private */ = {
 			isa = PBXGroup;
 			children = (
-				9F98C0231DBDF2A300476D92 /* ASControlTargetAction.h */,
-				9F98C0241DBDF2A300476D92 /* ASControlTargetAction.m */,
 				058D0A02195D050800B7D73C /* _AS-objc-internal.h */,
 				058D0A03195D050800B7D73C /* _ASCoreAnimationExtras.h */,
 				058D0A04195D050800B7D73C /* _ASCoreAnimationExtras.mm */,
@@ -1559,6 +1559,8 @@
 				044285061BAA63FE00D16268 /* ASBatchFetching.m */,
 				CC87BB941DA8193C0090E380 /* ASCellNode+Internal.h */,
 				CC2E317F1DAC353700EEE891 /* ASCollectionView+Undeprecated.h */,
+				9F98C0231DBDF2A300476D92 /* ASControlTargetAction.h */,
+				9F98C0241DBDF2A300476D92 /* ASControlTargetAction.m */,
 				251B8EF61BBB3D690087C538 /* ASDataController+Subclasses.h */,
 				8B0768B11CE752EC002E1453 /* ASDefaultPlaybackButton.h */,
 				8B0768B21CE752EC002E1453 /* ASDefaultPlaybackButton.m */,
@@ -1580,6 +1582,7 @@
 				058D0A0E195D050800B7D73C /* ASImageNode+CGExtras.m */,
 				ACF6ED431B17847A00DA7C62 /* ASInternalHelpers.h */,
 				ACF6ED441B17847A00DA7C62 /* ASInternalHelpers.m */,
+				69527B111DC84292004785FB /* ASLayoutElementStylePrivate.h */,
 				69EEA0A01D9AB43900B46420 /* ASLayoutSpecPrivate.h */,
 				ACF6ED451B17847A00DA7C62 /* ASLayoutSpecUtilities.h */,
 				E52405B41C8FEF16004DC8E7 /* ASLayoutTransition.h */,
@@ -1863,6 +1866,7 @@
 				34EFC7791B701D3600AD841F /* ASLayoutSpecUtilities.h in Headers */,
 				B350625C1B010F070018CF92 /* ASLog.h in Headers */,
 				0442850E1BAA64EC00D16268 /* ASMultidimensionalArrayUtils.h in Headers */,
+				69527B121DC84292004785FB /* ASLayoutElementStylePrivate.h in Headers */,
 				CC3B208A1C3F7A5400798563 /* ASWeakSet.h in Headers */,
 				DE8BEAC21C2DF3FC00D57C12 /* ASDelegateProxy.h in Headers */,
 				B35062041B010EFD0018CF92 /* ASMultiplexImageNode.h in Headers */,
